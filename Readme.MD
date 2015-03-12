@@ -2,6 +2,7 @@
 
 ## Project
 Script, called run_analysis.R, that does the following:
+
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 2. Uses descriptive activity names to name the activities in the data set
@@ -24,6 +25,7 @@ Script, called run_analysis.R, that does the following:
 In summary the following calculations are performed in this script:
 
 1 The different datasets are loaded related to the measurements, activities and subjects.
+
 2 For both sets (training and test):
 
 - Only the measurements related to mean and std are kept, other columns are removed.
@@ -31,6 +33,7 @@ In summary the following calculations are performed in this script:
 - Descriptive columns are given for each columnname.
 
 3 Training and testdata is combined in to one dataset: fulltidy
+
 4 Using the fulltidy dataset, a second dataset is created for the average of each measurement for each activity and subject.
 
 

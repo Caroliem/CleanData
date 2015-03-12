@@ -19,12 +19,15 @@ The following transformation have taken place to clean up the data and create th
 - subject_train.txt - subject IDs for traindata
 - X_train.txt - measurements for traindata
 - y_train.txt - activity IDs for traindata.
+
 2 For both training and testdata the following transformations are performed:
 - Appropriately label the measurement data set with descriptive colunm names using the features.txt file 
 - Extract only the measurements on the mean and standard deviation for each measurement. 
 - Merge activityIDs with the activity labels to get descriptive activity names.
 - Combine (using cbind) the measurement data with the subject data and activity data
+
 3 Merge (using rbind) the training and testset data to get the fulltidy dataset
+
 4 Using the fulltidy dataset create a second dataset that calculates for subject and activity the average for each measurement. This dataset is called TidyAgg.
 
 
