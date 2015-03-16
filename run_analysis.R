@@ -45,7 +45,3 @@ fulltidy <- rbind(test,train)
 TidyAgg <- aggregate(. ~ subject_ID + Activity_Id + Activity_Name, data=fulltidy, FUN = mean)
 ## Create a txt file with write.table() for submission.
 write.table(TidyAgg, file="./TidyAgg.txt", row.names=FALSE)
-
-library(quantmod)
-amzn = getSymbols("AMZN",auto.assign=FALSE)
-sampleTimes = index(amzn) 
